@@ -162,20 +162,10 @@ docker compose up --build
 ---
 
 ## 📚 Certifications
-
+  ## https://orcid.org/0009-0003-3848-2244 ##
 - AWS Certified Solutions Architect
 - HL7 FHIR Certified
 - [Whitepaper: "Modernizing EHRs with Microservices"](https://yourwebsite.com/whitepaper)
-
----
-
-## 📬 Connect
-
-- [LinkedIn](https://www.linkedin.com/in/your-profile)
-- [Personal Website](https://yourwebsite.com)
-- Email: your.email@example.com
-
----
 
 > “The best healthcare software is invisible—empowering clinicians, protecting patients, and advancing medicine, all behind the scenes.”
 **R-E-C-P/R-E-C-P** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
