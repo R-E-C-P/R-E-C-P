@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<!--# 👨‍💻 R-E-C-P — Architecting Next-Gen Healthcare Tech
+# 👨‍💻 R-E-C-P — Architecting Next-Gen Healthcare Tech
 
 ![Profile Views](https://komarev.com/ghpvc/?username=R-E-C-P&style=flat-square)
 ![Followers](https://img.shields.io/github/followers/R-E-C-P?label=Follow&style=social)
@@ -72,7 +72,7 @@ I'm R-E-C-P, a **system architect** and **full-stack developer** specializing in
 
 ## 🖥️ Tech Landscape: Advanced Infographic
 
-```mermaid
+```
 flowchart TD
     %% Entry points
     subgraph Clients
@@ -315,14 +315,5 @@ If you attempt to run or install this system on **Windows 10 or below**, **pleas
 > “The best healthcare software is invisible—empowering clinicians, protecting patients, and advancing medicine, all behind the scenes.”
 **R-E-C-P/R-E-C-P** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 -->
