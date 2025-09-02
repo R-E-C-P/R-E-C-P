@@ -1,19 +1,17 @@
-## Hi there 👋
+#👨‍💻 R-E-C-P — Architecting Next-Gen Healthcare Tech
 
-# 👨‍💻 R-E-C-P — Architecting Next-Gen Healthcare Tech
-
-![Profile Views](https://komarev.com/ghpvc/?username=R-E-C-P&style=flat-square)
-![12000 Followers](https://img.shields.io/github/followers/R-E-C-P?label=Follow&style=social)
-![Status](https://img.shields.io/badge/Status-Actual-blue)
+![Profile Views](https://komarev.com/ghpvc/?username=your-github-username&label=PROFILE+VIEWS)
+![Followers](https://komarev.com/ghpvc/?username=your-github-username&label=Pull-Request)
+![Status](https://img.shields.io/badge/Status-RUNNING-Green)
 
 ---
 
 Welcome!  
-I'm R-E-C-P, a **system architect** and **full-stack developer** specializing in secure, cloud-native Electronic Health Record (EHR) platforms. My passion lies in bridging clinical needs and deep tech—making healthcare smarter, safer, and more connected.
+R-E-C-P, a **system architect** specializing in secure, cloud-native Electronic Health Record (EHR) platforms. My passion lies in bridging clinical needs and deep tech—making healthcare smarter, safer, and more connected.
 
 ---
 
-## 🚀 Tech Stack: My Toolbox
+##💻 Tech Stack:Toolbox
 
 ### **Programming Languages**
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
@@ -70,154 +68,28 @@ I'm R-E-C-P, a **system architect** and **full-stack developer** specializing in
 
 ---
 
-## 🖥️ Tech Landscape: Advanced Infographic
+**Important Note:**  
+If you attempt to run or install this system on **Windows 10 or below**, **please contact me immediately**. The installation will likely fail or critical packages may be damaged.
 
-```
-flowchart TD
-    %% Entry points
-    subgraph Clients
-        Web[Web App (React/Next.js)]
-        Mobile[Mobile App]
-        ExtClients[External Systems<br/>(Partners, Devices)]
-    end
 
-    subgraph Gateway
-        APIGW[API Gateway<br/>(OAuth2, Rate Limit, Logging)]
-        SSO[SSO / Auth Provider]
-        WAF[Web Application Firewall]
-    end
+## 🖥️ Minimum System Requirements
 
-    subgraph Services
-        Patient[Patient Service]
-        Schedule[Scheduling Service]
-        Billing[Billing Service]
-        Notes[Clinical Notes Service]
-        Notify[Notification/Message Service]
-        HL7FHIR[HL7/FHIR Adapter]
-        Lab[LIS/RIS/Pharmacy Adapter]
-        Audit[Audit/Event Log Service]
-        Analytics[Analytics + ML]
-        Files[File Storage Svc]
-        Admin[Admin/Settings Service]
-    end
+| Component       | Minimum                  | Recommended      |
+|-----------------|-------------------------|------------------|
+| CPU             | 4 cores                 | 8+ cores         |
+| RAM             | 8 GB                    | 16 GB            |
+| Disk Space      | 50 GB SSD               | 100 GB SSD/NVMe  |
+| OS              | Ubuntu 20.04+ / macOS 12+ / Windows 10++ | Linux Server    |
+| Docker          | v24.x                   | Latest           |
+| Node.js         | v18.x                   | LTS              |
+| Python          | v3.10                   | Latest 3.x       |
 
-    subgraph Data
-        DB[(PostgreSQL Cluster)]
-        DocDB[(MongoDB)]
-        Redis[(Redis Cache/Queue)]
-        ES[(Elasticsearch)]
-        S3[(S3/Object Storage)]
-        Kafka[(Kafka Bus)]
-    end
-
-    subgraph Security
-        Vault[Secrets Vault]
-        SIEM[SIEM/Security Analytics]
-        IAM[Access Control & IAM]
-    end
-
-    subgraph Observability
-        Prom[Prometheus<br/>Monitoring]
-        Graf[Grafana<br/>Dashboards]
-        Jaeger[Tracing (Jaeger)]
-        ELK[ELK Stack<br/>(Logs/Alerts)]
-    end
-
-    subgraph DevOps
-        CI[CI/CD (GitHub Actions)]
-        Argo[ArgoCD (GitOps)]
-        Helm[Helm Charts]
-        Terraform[Terraform]
-    end
-
-    subgraph Infra
-        K8S[Kubernetes<br/>(Multi-Region)]
-        Cloud[AWS/GCP/Azure]
-        Edge[API Edge Nodes]
-    end
-
-    %% Client flows
-    Web -->|HTTPS| WAF
-    Mobile -->|HTTPS| WAF
-    ExtClients -->|FHIR/REST| APIGW
-
-    WAF --> APIGW
-    APIGW --> SSO
-    SSO -->|JWT| APIGW
-
-    %% Service flows
-    APIGW -->|REST/gRPC| Patient
-    APIGW --> Schedule
-    APIGW --> Billing
-    APIGW --> Notes
-    APIGW --> Notify
-    APIGW --> HL7FHIR
-    APIGW --> Admin
-
-    HL7FHIR --> Lab
-
-    %% Data flows
-    Patient --> DB
-    Schedule --> DB
-    Billing --> DB
-    Notes --> DocDB
-    Audit --> ES
-    Notify --> Redis
-    Analytics --> ES
-    Analytics --> S3
-    Files --> S3
-
-    HL7FHIR <-->|FHIR Events| Kafka
-    Patient <-->|Domain Events| Kafka
-    Schedule <-->|Domain Events| Kafka
-    Billing <-->|Domain Events| Kafka
-    Notes <-->|Domain Events| Kafka
-
-    %% Security flows
-    APIGW --> Vault
-    Services --> Vault
-    Services --> IAM
-    Audit --> SIEM
-    SIEM --> ELK
-
-    %% Observability
-    Services --> Prom
-    Services --> Jaeger
-    Prom --> Graf
-    Jaeger --> Graf
-    Services --> ELK
-
-    %% DevOps/Infra flows
-    CI --> Argo
-    Argo --> K8S
-    Helm --> K8S
-    Terraform --> Cloud
-    K8S -->|Pods/Services| Services
-    K8S --> Edge
-    Edge --> WAF
-
-    %% Data backup
-    DB -->|Backup| S3
-    DocDB -->|Backup| S3
-
-    %% Admin flows
-    Admin --> IAM
-    Admin --> Vault
-
-    %% Label environments
-    classDef env fill:#faf7e7,stroke:#aaa,stroke-width:2px;
-    K8S:::env
-    Cloud:::env
-    Edge:::env
-```
-
----
 
 ## 🛠️ Installation Guide
 
 **1. Prerequisites**
 
-- Operating System: Ubuntu 20.04+ / macOS 12+ / Windows 11 (with WSL2 recommended)
+- Operating System: Ubuntu 20.04+ / macOS 12+ / Windows 10 OR higher
 - Node.js: v18.x or higher
 - Python: v3.10 or higher
 - Docker: v24.x or higher
@@ -227,10 +99,20 @@ flowchart TD
 - At least 50 GB free disk space
 
 **Important Note:**  
-If you attempt to run or install this system on **Windows 10 or below**, **please contact me immediately**. The installation will likely fail or critical packages may be damaged.
+***If-you-attempt-to-run-or-install-this-system-on-Windows-10-or-below-please-contact-me-immediately***
+
+**2. Update your PC**
+
+Step#
+
+***open powershell and run as administrator***
+paste this command;
+
+```bash
+winget update --all
+```
 
 **2. Clone the Repository**
-
 ```bash
 git clone https://github.com/R-E-C-P/ehr-system.git
 cd ehr-system
@@ -267,23 +149,6 @@ docker compose up --build
 
 - By default, the frontend is available at: [http://localhost:3000](http://localhost:3000)
 - API endpoints: [http://localhost:4000/api](http://localhost:4000/api)
-
----
-
-## 🖥️ Minimum System Requirements
-
-| Component       | Minimum                  | Recommended      |
-|-----------------|-------------------------|------------------|
-| CPU             | 4 cores                 | 8+ cores         |
-| RAM             | 8 GB                    | 16 GB            |
-| Disk Space      | 50 GB SSD               | 100 GB SSD/NVMe  |
-| OS              | Ubuntu 20.04+ / macOS 12+ / Windows 11 (WSL2) | Linux Server    |
-| Docker          | v24.x                   | Latest           |
-| Node.js         | v18.x                   | LTS              |
-| Python          | v3.10                   | Latest 3.x       |
-
-**Important Note:**  
-If you attempt to run or install this system on **Windows 10 or below**, **please contact me immediately**. The installation will likely fail or critical packages may be damaged.
 
 ---
 
