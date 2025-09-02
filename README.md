@@ -7,7 +7,7 @@
 ---
 
 Welcome!  
-R-E-C-P, a **system architect** specializing in secure, cloud-native Electronic Health Record (EHR) platforms. My passion lies in bridging clinical needs and deep tech—making healthcare smarter, safer, and more connected.
+R-E-C-P, a **system architect** specializing in secure, cloud-native Electronic Health Record (EHR) platforms, bridging clinical needs and deep tech—making healthcare smarter, safer, and more connected.
 
 ---
 
