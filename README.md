@@ -1,8 +1,10 @@
 #👨‍💻 R-E-C-P — Architecting Next-Gen Healthcare Tech
 
+![Status](https://img.shields.io/badge/LICENSE-APACHE_2.0-red)
 ![Profile Views](https://komarev.com/ghpvc/?username=your-github-username&label=PROFILE+VIEWS)
+![Status](https://img.shields.io/badge/High_End-Base_3119v-purple)
 ![Followers](https://komarev.com/ghpvc/?username=your-github-username&label=Pull-Request)
-![Status](https://img.shields.io/badge/Status-RUNNING-Green)
+![Status](https://img.shields.io/badge/MongoDB-Organization-turqoise)
 
 ---
 
