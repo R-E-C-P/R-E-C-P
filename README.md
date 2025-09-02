@@ -4,7 +4,7 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=R-E-C-P&style=flat-square)
 ![Followers](https://img.shields.io/github/followers/R-E-C-P?label=Follow&style=social)
-![Status](https://img.shields.io/badge/Status-Building-blue)
+![Status](https://img.shields.io/badge/Status-Actual-blue)
 
 ---
 
