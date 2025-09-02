@@ -116,7 +116,7 @@ winget update --all
 
 **2. Clone the Repository**
 ```bash
-git clone https://github.com/R-E-C-P/ehr-system.git
+git clone https://github.com/R.E.C.P_version3.1/ehr-system.git
 cd ehr-system
 ```
 
@@ -168,9 +168,3 @@ docker compose up --build
 - AWS Certified Solutions Architect
 - HL7 FHIR Certified
 - [Whitepaper: "Modernizing EHRs with Microservices"](https://yourwebsite.com/whitepaper)
-
-> “The best healthcare software is invisible—empowering clinicians, protecting patients, and advancing medicine, all behind the scenes.”
-**R-E-C-P/R-E-C-P** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-
--->
